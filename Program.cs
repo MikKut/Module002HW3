@@ -28,7 +28,7 @@ namespace Products
                 Console.WriteLine($"All ID of plants: " + plant.ID);
             }
 
-            var plantsHigherThanTen = FindByCriteria.GetAllPlantsHigherThan(plants, 10);
+            var plantsHigherThanTen = plants.GetAllPlantsHigherThan(10);
             foreach (var plant in plantsHigherThanTen)
             {
                 if (plant is ISpiece)
