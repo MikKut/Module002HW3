@@ -8,12 +8,12 @@
         /// <summary>
         /// Gets size of the plant.
         /// </summary>
-        int Size { get; }
+        public int Size { get; }
 
         /// <summary>
         /// Gets the time when the plant is old enough to sell.
         /// </summary>
-        DateTime WillBeGrownIn { get; }
+        public DateTime WillBeGrownIn { get; }
 
         /// <summary>
         /// Gets ID of the plant.

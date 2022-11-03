@@ -23,6 +23,6 @@ namespace Products.ProductModels.Genus
         /// <summary>
         /// Gets a genus name.
         /// </summary>
-        public static string GenusName => "Lilium";
+        public string GenusName => "Lilium";
     }
 }

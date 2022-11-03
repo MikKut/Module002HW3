@@ -14,6 +14,6 @@ namespace Products.ProductModels.Genus
         /// <summary>
         /// Gets a genus name.
         /// </summary>
-        static string GenusName { get; }
+        public string GenusName { get; }
     }
 }

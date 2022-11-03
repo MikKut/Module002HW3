@@ -14,6 +14,6 @@ namespace Products.ProductModels.Order
         /// <summary>
         /// Gets an order name.
         /// </summary>
-        static string OrderName { get; }
+        public string OrderName { get; }
     }
 }

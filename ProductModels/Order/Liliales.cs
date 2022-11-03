@@ -21,6 +21,6 @@ namespace Products.ProductModels.Order
         }
 
         /// <inheritdoc cref="IOrder.OrderName">
-        public static string OrderName => "Liliales";
+        public string OrderName => "Liliales";
     }
 }

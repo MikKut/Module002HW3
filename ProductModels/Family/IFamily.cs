@@ -14,6 +14,6 @@ namespace Products.ProductModels.Family
         /// <summary>
         /// Gets family name.
         /// </summary>
-        static string FamilyName { get; }
+        public string FamilyName { get; }
     }
 }

@@ -22,6 +22,6 @@ namespace Products.ProductModels.Family
         }
 
         /// <inheritdoc cref="IFamily.FamilyName"/>
-        public static string FamilyName => "Liliales";
+        public string FamilyName => "Liliales";
     }
 }

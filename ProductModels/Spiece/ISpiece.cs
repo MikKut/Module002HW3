@@ -14,11 +14,11 @@ namespace Products.ProductModels.Species
         /// <summary>
         /// Gets spiece name.
         /// </summary>
-        public static string SpieceName { get; }
+        public string SpieceName { get; }
 
         /// <summary>
         /// Gets full name of the spiece.
         /// </summary>
-        public static string FullName { get; }
+        public string FullName { get; } // There won't always be the same domains, so the implementation is undefined
     }
 }

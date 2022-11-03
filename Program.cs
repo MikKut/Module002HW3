@@ -31,7 +31,17 @@ namespace Products
             var plantsHigherThanTen = FindByCriteria.GetAllPlantsHigherThan(plants, 10);
             foreach (var plant in plantsHigherThanTen)
             {
-                Console.WriteLine($"All ID of plants higher than 10: " + plant.ID);
+                if (plant is ISpiece)
+                {
+                    var thePlant = plant as ISpiece;
+                    Console.WriteLine($"All ID of plants higher than 10: " + plant.ID);
+                    Console.WriteLine("The plant is " + thePlant?.FullName);
+                    Console.WriteLine("-------");
+                }
+                else
+                {
+                    Console.WriteLine("This is not a spiece!");
+                }
             }
         }
     }

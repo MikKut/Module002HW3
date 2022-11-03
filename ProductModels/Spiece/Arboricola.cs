@@ -24,12 +24,12 @@ namespace Products.ProductModels.Species
         /// Gets spiece name.
         /// </summary>
         /// <returns>Name of the spiece.</returns>
-        public static string SpieceName => "Arboricola";
+        public string SpieceName => "Arboricola";
 
         /// <summary>
         /// Gets full name.
         /// </summary>
         /// <returns>String with order, family, genus and spiece, separated by spaces.</returns>
-        public string FullName => $"{OrderName} {FamilyName} {GenusName} {SpieceName}";
+        public string FullName => $"{this.OrderName} {this.FamilyName} {this.GenusName} {this.SpieceName}";
     }
 }
